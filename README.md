@@ -1,5 +1,5 @@
 # com_anm22_wb_mail - WebBase plugin
-![version](https://img.shields.io/badge/version-1.1-blue)
+![version](https://img.shields.io/badge/version-1.2-blue)
 
 com_anm22_wb_mail is the plugin of ANM22 WebBase CMS to subscribe new user to the ANM22 Mail mailing lists.
 

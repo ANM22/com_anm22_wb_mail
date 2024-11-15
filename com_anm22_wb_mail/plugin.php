@@ -90,7 +90,7 @@ class com_anm22_wb_editor_page_element_mail_subscribe extends com_anm22_wb_edito
     public function show()
     {
         ?>
-        <div class="<?= $this->elementPlugin ?>_<?= $this->elementClass ?><?= (($this->cssClass) && ($this->cssClass != "")) ? $this->cssClass : "" ?>">
+        <div class="<?= $this->elementPlugin ?>_<?= $this->elementClass ?><?= (($this->cssClass) && ($this->cssClass != "")) ? " " . $this->cssClass : "" ?>">
             <?
             if (isset($_GET['wb_form_alarm']) && $_GET['wb_form_alarm'] == 2) {
                 ?>
